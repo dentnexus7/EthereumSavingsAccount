@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.5.1+commit.c8a2cb62"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "release",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "_beneficiary",
+						"type": "address"
+					},
+					{
+						"name": "_releaseTime",
+						"type": "uint256"
+					}
+				],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Timelock.sol": "Timelock"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Timelock.sol": {
+			"keccak256": "0x897216912dcd1f88a5994a887a800e71987168073a4d7432c66965f12151c192",
+			"urls": [
+				"bzzr://a2dcfccdb24fe2fe7c6ad910290195f57bdfdc1d005cd1d00b23811ae4152e26"
+			]
+		}
+	},
+	"version": 1
+}
